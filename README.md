@@ -39,6 +39,7 @@ For push new image :
 --------------------
   `
     docker tag <SHA1> mgn42/mdbook_plantuml:tagname
+    
     docker push mgn42/mdbook_plantuml:tagname
   `
 
