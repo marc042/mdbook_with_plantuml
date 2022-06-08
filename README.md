@@ -1,12 +1,12 @@
 # mdbook_with_plantuml
-Docker Mdbook with Plantuml tools
+Mdbook Docker with Plantuml tools
 
 
 Introduction
 ============
 
-The Docker mdbook_plantuml is a docker based on docker-mdbook.
-He a capability to generate :
+The Docker mdbook_plantuml is based on docker-mdbook.
+It has a capability to generate :
   - the plantuml graphs
 
 Required
@@ -18,7 +18,9 @@ For Linux with docker installed.
 Build Docker
 ============
 
-docker build -t mdbook_plantuml .
+  {
+    docker build -t mdbook_plantuml .
+  }
 
 Run Docker
 ==========
@@ -35,6 +37,8 @@ The Docker is in https://hub.docker.com/repository/docker/mgn42/mdbook_plantuml
 
 For push new image :
 --------------------
-docker tag <SHA1> mgn42/mdbook_plantuml:tagname
-docker push mgn42/mdbook_plantuml:tagname
+  {
+    docker tag <SHA1> mgn42/mdbook_plantuml:tagname
+    docker push mgn42/mdbook_plantuml:tagname
+  }
 
