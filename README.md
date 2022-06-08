@@ -18,9 +18,9 @@ For Linux with docker installed.
 Build Docker
 ============
 
-  {
+  `
     docker build -t mdbook_plantuml .
-  }
+  `
 
 Run Docker
 ==========
@@ -37,8 +37,8 @@ The Docker is in https://hub.docker.com/repository/docker/mgn42/mdbook_plantuml
 
 For push new image :
 --------------------
-  {
+  `
     docker tag <SHA1> mgn42/mdbook_plantuml:tagname
     docker push mgn42/mdbook_plantuml:tagname
-  }
+  `
 
